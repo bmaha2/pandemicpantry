@@ -1,0 +1,53 @@
+body {
+  background-image: url("images/food.png");
+}
+header {
+    background-color: #86c9eb;
+    color: #fff;
+    padding: 1.5rem 0;
+    margin-bottom:20px;
+    line-height: 1;
+    text-align: center;
+    font-size: x-large;
+
+  }
+  
+.input-group-rounded .input-group-field {
+  border-radius: 5000px 0 0 5000px;
+  padding-left: 1rem;
+}
+
+.input-group-rounded .input-group-button .button {
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+}
+  input[type=text] {
+    width: 10%;
+    padding: 5px;
+    margin: 4px 0;    
+  } 
+
+  .feature {
+    text-align: center; 
+    margin-bottom: 5px;    
+    display: flex;
+    
+  }
+
+  .feature-image {
+    margin-bottom: 2px
+  }
+  
+  .feature-text {
+    margin-bottom: 5px;
+  }
+  .fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+  #recipeContainer {
+    display: flex;
+    flex-direction: column nowrap;
+  }
+  
+  

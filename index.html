@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation-float.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="align-center">
+            <header>
+                <h1>Pandemic Pantry</h1>
+            </header>
+        </div>
+        <div class="columns medium-4">
+            <form id="search">
+                <div class="input-group input-group-rounded">
+                    <input id="search-input" class="input-group-field" type="search">
+                    <div class="input-group-button">
+                        <input type="submit" class="button secondary" value="Search">
+                    </div>
+                </div>
+                <div>
+                    <fieldset class="fieldset">
+                        <legend>Choices</legend>
+                        <div><input name = "diet" value= "Vegan" class="diet-choice" type="radio"><label for="checkbox12">Vegan</label></div>
+                        <div><input name = "diet" value= "Vegetarian" class="diet-choice" type="radio"><label for="checkbox22">Vegetarian</label></div>
+                        <div><input name = "diet" value= "gluten free" class="diet-choice" type="radio"><label for="checkbox32">glutenFree</label></div>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+        <div class=" columns medium-8 feature">
+            <div class="row" id="recipeContainer"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
